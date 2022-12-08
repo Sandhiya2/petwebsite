@@ -1,0 +1,245 @@
+.mid{
+    margin-top:2%;
+     color:#102354;
+   }
+   .mid h2{
+     margin-left: 22%;
+     color:black;
+   }
+   .column {
+     float: left;
+     width: 32.33%;
+     padding: 10px;
+   }
+   .mid::after {
+     content: "";
+     clear: both;
+     display: table;
+   }
+   .mid img {
+     opacity: 0.8;
+     width:320px;
+     height:250px;
+     margin-left: 4%;
+   }
+   .mid img:hover {
+     opacity: 1.0;
+   }
+   .mid2{
+     margin-top:2%;
+     color:#102354;
+   }
+   .mid2 h2{
+     margin-left: 22%;
+     color:black;
+   }
+   .col {
+     float: left;
+     width: 32.33%;
+     padding: 10px;
+   }
+   .mid2::after {
+     content: "";
+     clear: both;
+     display: table;
+   }
+   .mid2 img {
+     opacity: 0.8;
+     width:320px;
+     height:250px;
+     margin-left: 4%;
+   }
+   .mid2 img:hover {
+     opacity: 1.0;
+   }
+   
+   .box {
+     margin-top: 4%;
+     width: 90%;
+     border: 5px solid #068DE7;
+     padding: 50px;
+     margin-left: 3%;
+   }
+   .box h1{
+     color: #068DE7 ;
+     float:right;
+   }
+   .box input[type=submit]{
+   font-size: 16px;
+   background:#068DE7;
+   color: white;
+   font-weight: bold;
+   cursor: pointer;
+   outline:none;
+   width: 20%;
+   float:right;
+   margin-right:25%;
+   }
+   .box2 {
+     margin-top: 4%;
+     width: 90%;
+     border: 5px solid #068DE7;
+     padding: 50px;
+     margin-left: 3%;
+   }
+   .box2 h1{
+     color: #068DE7 ;
+     float:right;
+     margin-right:6%;
+   }
+   .box2 input[type=submit]{
+   font-size: 16px;
+   background:#068DE7;
+   color: white;
+   font-weight: bold;
+   cursor: pointer;
+   outline:none;
+   width: 20%;
+   float:right;
+   margin-right:15%;
+   }
+   .brand{
+     margin-top: 4%;
+     margin-left: 32%;
+     color:#102354;
+   }
+   .sli{
+     height:250px;
+     margin:auto;
+     position:relative;
+     width:90%;
+     display:grid;
+     place-items:center;
+     overflow:hidden;
+   }
+   .sli-track{
+     display:flex;
+     width:calc(250px * 12);
+     animation:scroll 40s linear infinite;
+   }
+   .sli-track:hover{
+     animation-play-state: paused;
+   }
+   @keyframes scroll{
+     0% {
+       transform:translateX(0);
+     }
+     100%{
+       transform: translateX(calc(-250px * 6));
+     }
+   }
+   .slid{
+     height:200px;
+     width:250px;
+     display:flex;
+     align-items:center;
+     padding:15px;
+     perspective:100px;
+   }
+   .sli img{
+     max-width:100%;
+     transition: transform 1s;
+   }
+   .sli img:hover{
+     transform: translateZ(20px);
+   }
+   .sli::before,
+   .sli::after
+   {
+    background:linear-gradient(to right,rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);	
+    content: '';
+   height:100%;
+   position:absolute;
+   width:15%;
+   z-index:2;
+   }
+   .sli::before{
+     left:0;
+     top:0;
+   }
+   .sli::after{
+     right:0;
+     top:0;
+     transform:rotateZ(180deg);
+   }
+  .parent h2{
+    text-align: center;
+    color:#01416D;
+    margin-top: 2%;
+  }
+  .gui1{
+    margin-top:2%;
+    color:#102354;
+  }
+  .gui1 h4{
+    margin-top:3%;
+    margin-left: 30%;
+    color:black;
+  }
+  .gui {
+    float: left;
+    width: 23.33%;
+    padding: 10px;
+  }
+  .gui a{
+      color:black;
+  }
+  .gui a:hover{
+    color:#102354;
+}
+  .gui1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .gui1 img {
+    width:300px;
+    height:180px;
+    margin-left: 13%;
+  }
+  .gui1 img:hover {
+    opacity: 0.6;
+  }
+  .main-nav li{
+      display: inline;
+      margin-left:3%;
+  }
+  .main-nav h4{
+      margin-left:23%;
+      color:black;
+  }
+  .main-nav a{
+      color: black;
+  }
+  .main-nav a:hover{
+    text-decoration: 2px solid #50B7FE underline;
+  }
+  .main-nav li.active{
+    text-decoration: 3px solid #50B7FE underline;
+  }
+  .rub h1 {
+    text-align: center;
+    margin-top: 3%;
+    color: black;
+}
+.rub img{
+    margin-left: 24%;
+    margin-top: 2%;
+}
+.rub p{
+    margin-left: 3%;
+    font-size: 20px;
+    margin-top: 2%;
+}
+.rub h2 {
+    margin-left: 3%;
+    color: black;
+}
+.rub ul{
+    margin-left: 3%;
+    font-size: 20px;
+}
+.rub h3{
+    margin-left: 3%;
+    color: black;
+}
